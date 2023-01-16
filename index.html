@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Mulish:wght@600&display=swap" rel="stylesheet">
+    <title>Lim Scooters</title>
+</head>
+<body>
+    <!-- Contenitore -->
+    <div class="container">
+
+        <!-- Logo LIM -->
+        <img src="logo.png" alt="logo lim">
+        <p class="motto">Taking Boolearners from A to B</p>
+
+        <!-- Nav Bottoni -->
+        <div class="nav"> 
+                <input type="button" class="button" value="Prenota">
+                <input type="button" class="button" value="Termina Prenotazione">
+                <input type="button" class="button" value="Accendi Luci">
+        </div>
+
+        <!-- Monopattini Disponibili -->
+        <form action="GET">
+            <!-- Monopattino 1 -->
+            <div class="monopattini">
+                <input type="radio" name="scelta-monopattino">
+                <h6>Monopattino Gino22</h6>
+                <em>Via Guadalametri - a 220 metri da te</em>
+                <i class='fa fa-battery yellow-color'></i>
+                <p>Stato carica:</p>
+                <div id="carica1"></div>
+            </div>
+
+            <!-- Monopattino 2 -->
+            <div class="monopattini">
+                <input type="radio" name="scelta-monopattino">
+                <h6>Monopattino Mike24</h6>
+                <em>Via Ricciardoni - a 420 metri da te</em>
+                <i class='fa fa-battery green-color'></i>
+                <p>Stato carica:</p>
+                <div id="carica2"></div>
+            </div>
+
+            <!-- Monopattino 3 -->
+            <div class="monopattini">
+                <input type="radio" name="scelta-monopattino">
+                <h6>Monopattino Fede154</h6>
+                <em>Via Mentarini - a 490 metri da te</em>
+                <i class='fa fa-battery red-color'></i>
+                <p>Stato carica:</p>
+                <div id="carica3"></div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

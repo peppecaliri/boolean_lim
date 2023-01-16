@@ -1,0 +1,132 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1380px;
+    height: 900px;
+    background-color: rgba(0, 0, 0, 0.55);
+    margin: auto;
+    border-radius: 20% 50%;
+    box-shadow: 3px 4px 5px 4px rgba(0, 0, 0, 0.50);
+}
+
+div > img {
+    display: block;
+    padding-top: 100px;
+    margin: auto;
+    width: 250px;
+}
+
+.motto {
+    color: limegreen;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 900;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-shadow: 1px 1px 2px green;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: limegreen;
+    height: 45px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 0%;
+    margin-bottom: 2%;
+}
+
+input[type="button"] {
+    margin: 9px 5px 9px 5px;
+    transition: 1s;
+}
+
+input[type="button"]:hover {
+    transform: scale(1.1);
+}
+
+.monopattini {
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 3%;
+}
+
+.monopattini > h6 {
+    display: inline;
+    font-family: 'Mulish', sans-serif;
+    font-weight: lighter;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.monopattini > em {
+    display: block;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.monopattini > em:before {
+    content: "\2192 ";
+}
+
+.monopattini > p {
+    display: inline;
+    margin-top: 0;
+    color: white;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+}
+
+#carica1 {
+    width: 280px;
+    height: 28px;
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+#carica2 {
+    width: 500px;
+    height: 28px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+#carica3 {
+    width: 150px;
+    height: 28px;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* Simbolo batteria */
+.monopattini > i {
+    display: inline;
+}
+
+/* Colori simboli batterie */
+.green-color {
+    color:green;
+}
+ 
+.yellow-color {
+    color:yellow;
+}
+
+.red-color {
+    color:red;
+}
+
+/*************************** */
